@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "Online_Shop\\Models\\Cart.cs",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Cart.cs",
+              "RelativeToolTip": "Online_Shop\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:27:30.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "Online_Shop\\Models\\CartItem.cs",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\CartItem.cs",
+              "RelativeToolTip": "Online_Shop\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:17:32.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Item.cs",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "Online_Shop\\Models\\Item.cs",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Item.cs",
+              "RelativeToolTip": "Online_Shop\\Models\\Item.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:15:30.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Online_Shop\\Models\\Product.cs",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Product.cs",
+              "RelativeToolTip": "Online_Shop\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T08:01:27.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Online_Shop\\Models\\Category.cs",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Models\\Category.cs",
+              "RelativeToolTip": "Online_Shop\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-20T07:58:46.396Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
