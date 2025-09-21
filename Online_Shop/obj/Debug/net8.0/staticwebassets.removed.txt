@@ -1,1 +1,0 @@
-D:\Amir\Courses\ASP.Net Core\Project\Online_Shop\Online_Shop\wwwroot\css\bootstrap-rtl.css
