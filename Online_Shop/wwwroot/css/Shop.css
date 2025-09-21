@@ -76,6 +76,7 @@ body.rtl {
     background-color: var(--light-blue);
     border: none;
     color: #fff;
+    margin: 0;
     font-weight: 700;
     padding: 12px 28px;
     border-radius: 30px;
@@ -84,7 +85,13 @@ body.rtl {
     max-width: 180px;
     box-shadow: 0 4px 12px rgba(58, 134, 255, 0.5);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
 }
+
 
     .btn-buy:hover {
         background-color: var(--btn-hover);
@@ -179,4 +186,5 @@ footer.footer {
     font-size: 1.8rem;
     color: var(--light-blue);
 }
+
 

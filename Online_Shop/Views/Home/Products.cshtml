@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Item>
+@{
+    ViewData["Title"] = "لیست محصولات";
+}
+
+<div class="text-center" style="margin-top: 100px;">
+    <h2 class="display-4" style="color: var(--primary-blue); font-weight: 500;">@ViewData["Title"]</h2>
+</div>
+
+<div class="product-grid" style="padding: 20px; max-width: 1200px; margin: 0 auto;">
+    @foreach (var item in Model)
+    {
+        <div class="product-card">
+            @* <img src="~/images/@(item.product.id).jpg" alt="@item.product.name" /> *@
+            <img src="~/images/1.jpg" alt="@item.product.name" />
+            <h3 class="product-name">@item.product.name</h3>
+            <p class="product-price">@String.Format("{0:N0} تومان", item.price)</p>
+            <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.product.id" class="btn-buy">درباره محصول</a>
+        </div>
+    }
+</div>
+

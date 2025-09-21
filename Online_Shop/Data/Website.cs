@@ -15,15 +15,15 @@ namespace Online_Shop.Data
             products = new List<Product>();
             items = new List<Item>();
 
-            AddNewCategory(1, "1c", "1c");
-            AddNewCategory(2, "2c", "2c");
-            AddNewCategory(3, "3c", "3c");
-            AddNewCategory(4, "4c", "4c");
+            AddNewCategory(1, "دسته بندی شماره 1", "این یک توضیح ساده در مورد این دسته بندی میباشد");
+            AddNewCategory(2, "دسته بندی شماره 2", "این یک توضیح ساده در مورد این دسته بندی میباشد");
+            AddNewCategory(3, "دسته بندی شماره 3", "این یک توضیح ساده در مورد این دسته بندی میباشد");
+            AddNewCategory(4, "دسته بندی شماره 4", "این یک توضیح ساده در مورد این دسته بندی میباشد");
 
-            AddNewItem(1, "1p", "1p", 1, 1, 100);
-            AddNewItem(2, "2p", "2p", 2, 1, 100);
-            AddNewItem(3, "3p", "3p", 3, 1, 100);
-            AddNewItem(4, "4p", "4p", 4, 1, 100);
+            AddNewItem(1, "محصول شماره 1", "این یک توضیح ساده در مورد این محصول میباشد", 1, 1, 100);
+            AddNewItem(2, "محصول شماره 2", "این یک توضیح ساده در مورد این محصول میباشد", 2, 1, 100);
+            AddNewItem(3, "محصول شماره 3", "این یک توضیح ساده در مورد این محصول میباشد", 3, 1, 100);
+            AddNewItem(4, "محصول شماره 4", "این یک توضیح ساده در مورد این محصول میباشد", 4, 1, 100);
         }
 
         public static Category GetCategoryById(int id)
@@ -36,6 +36,12 @@ namespace Online_Shop.Data
         {
             var product = products.Find(p => p.id == id);
             return product ?? products[0];
+        }
+
+        public static Item GetItemById(int id)
+        {
+            var item = items.Find(p => p.product.id == id);
+            return item ?? items[0];
         }
 
         public static void AddNewCategory(int id, string name, string description)
