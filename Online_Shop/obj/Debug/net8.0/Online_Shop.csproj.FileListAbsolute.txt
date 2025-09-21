@@ -27,3 +27,4 @@ D:\Amir\Courses\ASP.Net Core\Project\Online_Shop\Online_Shop\obj\Debug\net8.0\re
 D:\Amir\Courses\ASP.Net Core\Project\Online_Shop\Online_Shop\obj\Debug\net8.0\Online_Shop.pdb
 D:\Amir\Courses\ASP.Net Core\Project\Online_Shop\Online_Shop\obj\Debug\net8.0\Online_Shop.genruntimeconfig.cache
 D:\Amir\Courses\ASP.Net Core\Project\Online_Shop\Online_Shop\obj\Debug\net8.0\ref\Online_Shop.dll
+D:\Amir\Courses\ASP.Net Core\Project\Online_Shop\Online_Shop\obj\Debug\net8.0\Online_Shop.sourcelink.json
