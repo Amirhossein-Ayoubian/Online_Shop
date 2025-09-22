@@ -28,16 +28,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Home/CategoryDetail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDYXRlZ29yeURldGFpbC5jc2h0bWw=
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Detail/CategoryDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXENhdGVnb3J5RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Detail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Detail/ItemDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEl0ZW1EZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Home/ContactUs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDb250YWN0VXMuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Home/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxEZXRhaWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Home/Index.cshtml]

@@ -15,7 +15,7 @@
             <img src="~/images/1.jpg" alt="@item.product.name" />
             <h3 class="product-name">@item.product.name</h3>
             <p class="product-price">@String.Format("{0:N0} تومان", item.price)</p>
-            <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.product.id" class="btn-buy">درباره محصول</a>
+            <a asp-controller="Detail" asp-action="ItemDetail" asp-route-id="@item.product.id" class="btn-buy">درباره محصول</a>
         </div>
     }
 </div>

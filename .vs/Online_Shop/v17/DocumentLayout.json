@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\wwwroot\\css\\shop.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\wwwroot\\css\\shop.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
@@ -18,11 +14,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Shop.css",
               "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\wwwroot\\css\\Shop.css",
               "RelativeDocumentMoniker": "Online_Shop\\wwwroot\\css\\Shop.css",
@@ -32,19 +28,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-22T08:30:50.75Z",
               "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "Online_Shop\\Controllers\\CartController.cs",
-              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Controllers\\CartController.cs",
-              "RelativeToolTip": "Online_Shop\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAwwFYAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T08:57:07.494Z",
               "EditorCaption": ""
             }
           ]
