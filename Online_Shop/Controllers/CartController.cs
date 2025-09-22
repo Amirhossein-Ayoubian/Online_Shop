@@ -35,6 +35,11 @@ namespace Online_Shop.Controllers
 
             Website.cart.AddItem(cartItem);
 
+            if (item.count < Website.cart.cartItems.Find(c => c.item.product.id == cartItem.item.product.id).count)
+            {
+                Website.cart.RemoveItem(cartItem);
+            }
+
             return RedirectToAction("CartDetail");
         }
 
@@ -69,7 +74,28 @@ namespace Online_Shop.Controllers
 
         public IActionResult Checkout()
         {
-            return RedirectToAction("Index");
+            decimal totalPrice = 0;
+            foreach (var item in Website.cart.cartItems)
+            {
+                var myItem = item.item;
+                if (item.count <= myItem.count)
+                {
+                    item.count = myItem.count;
+
+                    totalPrice += item.getTotalPrice();
+
+                    var i = item.item;
+                    i.count -= item.count;
+                    if (i.count < 1)
+                    {
+                        Website.items.Remove(i);
+                    }
+                }
+            }
+
+            Website.cart.cartItems = new List<CartItem>();
+
+            return RedirectToAction("CartDetail");
         }
     }
 }
