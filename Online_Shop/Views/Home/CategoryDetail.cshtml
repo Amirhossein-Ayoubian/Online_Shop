@@ -1,0 +1,22 @@
+﻿@model CategoryItemViewModel
+@{
+    ViewData["Title"] = "دسته بندی " + Model.category.name;
+}
+
+<div class="text-center category-header" style="margin-top: 100px;">
+    <h2 class="category-title">@Model.category.name</h2>
+    <h2 class="category-description">@Model.category.description</h2>
+</div>
+
+<div class="product-grid" style="padding: 20px; max-width: 1200px; margin: 0 auto;">
+    @foreach (var item in Model.items)
+    {
+        <div class="product-card">
+            @* <img src="~/images/@(item.product.id).jpg" alt="@item.product.name" /> *@
+            <img src="~/images/1.jpg" alt="@item.product.name" />
+            <h3 class="product-name">@item.product.name</h3>
+            <p class="product-price">@String.Format("{0:N0} تومان", item.price)</p>
+            <a asp-controller="Home" asp-action="Detail" asp-route-id="@item.product.id" class="btn-buy">درباره محصول</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,38 @@
+﻿@model Cart
+@{
+    ViewData["Title"] = "سبد خرید";
+}
+
+<div style="max-width: 960px; margin: 40px auto; padding: 0 15px;">
+
+    <h1 class="category-title" style="margin-bottom: 30px; text-align: center;">سبد خرید شما</h1>
+
+    <div class="product-grid">
+        @foreach (var item in Model.cartItems)
+        {
+            <div class="product-card">
+                @* <img src="~/images/@(item.item.product.id).jpg" alt="@item.item.product.name" /> *@
+                <img src="~/images/1.jpg" alt="@item.item.product.name" />
+                <div class="product-name">@item.item.product.name</div>
+                <div class="product-quantity">تعداد: <strong>@item.count</strong></div>
+                <div class="product-price">قیمت کل: <strong>@item.getTotalPrice().ToString("N0") تومان</strong></div>
+
+                <form method="post" asp-action="RemoveFromCart" asp-controller="Cart" style="margin-top: 12px;">
+                    <input type="hidden" name="productId" value="@item.item.product.id" />
+                    <button type="submit" class="btn-buy" style="max-width: 120px; background-color: #e63946; box-shadow:none;">
+                        حذف
+                    </button>
+                </form>
+            </div>
+        }
+    </div>
+
+    <div style="text-align: center; margin-top: 40px;">
+        <form method="post" asp-action="Checkout" asp-controller="Cart">
+            <button type="submit" class="btn-buy" style="max-width: 220px; font-size: 1.2rem;">
+                نهایی کردن خرید
+            </button>
+        </form>
+    </div>
+
+</div>

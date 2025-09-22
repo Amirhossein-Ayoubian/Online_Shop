@@ -187,4 +187,39 @@ footer.footer {
     color: var(--light-blue);
 }
 
+.category-title {
+    color: var(--primary-blue);
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 10px 0;
+    letter-spacing: 0.04em;
+    text-shadow: 1px 1px 4px rgba(58, 134, 255, 0.4);
+    transition: color 0.3s ease;
+    text-align: center;
+}
 
+    .category-title:hover {
+        color: var(--light-blue);
+        cursor: default;
+    }
+
+.category-description {
+    color: var(--primary-blue);
+    font-weight: 500;
+    font-size: 1.25rem;
+    margin: 5px 0 15px;
+    letter-spacing: 0.03em;
+    text-align: right;
+}
+
+.product-quantity {
+    font-size: 1rem;
+    color: var(--text-dark);
+    margin-bottom: 8px;
+}
+
+.product-price {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--light-blue);
+}

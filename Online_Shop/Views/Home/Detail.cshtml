@@ -11,7 +11,7 @@
 
         <div style="max-width: 320px; text-align: right; direction: rtl;">
             <p style="font-size: 1rem; font-weight: 600; color: var(--dark-blue); margin-bottom: 10px;">
-                دسته‌بندی: <span style="color: var(--light-blue);">@Model.product.category.name</span>
+                دسته‌بندی: <a asp-controller="Home" asp-action="CategoryDetail" asp-route-id="@Model.product.category.id"><span style="color: var(--light-blue);">@Model.product.category.name</span></a>
             </p>
 
             <p style="font-size: 1rem; font-weight: 600; color: var(--dark-blue); margin-bottom: 20px;">
@@ -26,9 +26,12 @@
                 @Model.product.description
             </p>
 
-            <a asp-controller="Home" asp-action="Buy" asp-route-id="@Model.product.id" class="btn-buy" style="margin-top: 25px; display: inline-block; max-width: 200px;">
-                افزودن به سبد خرید
-            </a>
+            <form method="post" asp-action="AddToCart" asp-controller="Cart">
+                <input type="hidden" name="productId" value="@Model.product.id" />
+                <button type="submit" class="btn-buy" style="max-width: 220px; font-size: 1.2rem;">
+                    افزودن به سبد خرید
+                </button>
+            </form>
         </div>
     </div>
 </div>

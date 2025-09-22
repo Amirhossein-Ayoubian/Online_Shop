@@ -9,6 +9,8 @@ namespace Online_Shop.Data
         public static List<Product> products { get; set; }
         public static List<Item> items { get; set; }
 
+        public static Cart cart { get; set; }
+
         static Website()
         {
             categories = new List<Category>();
@@ -24,21 +26,26 @@ namespace Online_Shop.Data
             AddNewItem(2, "محصول شماره 2", "این یک توضیح ساده در مورد این محصول میباشد", 2, 1, 100);
             AddNewItem(3, "محصول شماره 3", "این یک توضیح ساده در مورد این محصول میباشد", 3, 1, 100);
             AddNewItem(4, "محصول شماره 4", "این یک توضیح ساده در مورد این محصول میباشد", 4, 1, 100);
+
+            cart = new Cart()
+            {
+                id = 1
+            };
         }
 
-        public static Category GetCategoryById(int id)
+        private static Category GetCategoryById(int id)
         {
             var category = categories.Find(c => c.id == id);
             return category ?? categories[0];
         }
 
-        public static Product GetProductById(int id)
+        private static Product GetProductById(int id)
         {
             var product = products.Find(p => p.id == id);
             return product ?? products[0];
         }
 
-        public static Item GetItemById(int id)
+        private static Item GetItemById(int id)
         {
             var item = items.Find(p => p.product.id == id);
             return item ?? items[0];
