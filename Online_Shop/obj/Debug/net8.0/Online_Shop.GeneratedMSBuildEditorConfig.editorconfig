@@ -68,12 +68,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcm9kdWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Register/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/_GroupShowDropdownPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Hcm91cFNob3dEcm9wZG93blBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/_RegisterLoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWdpc3RlckxvZ2luUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/_ShowCartItemPartial.cshtml]

@@ -297,3 +297,153 @@ footer.footer {
 .sidebar-container {
     margin-top: 80px;
 }
+
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 15px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 520px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(2, 62, 138, 0.12);
+    text-align: right; /* RTL */
+}
+
+.auth-title {
+    margin-bottom: 18px;
+    font-size: 1.6rem;
+    color: var(--primary-blue);
+    font-weight: 800;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-control {
+    border-radius: 10px;
+    box-shadow: none;
+    border: 1px solid rgba(0,0,0,0.08);
+    padding: 12px 14px;
+}
+
+.input-group .btn-show-pass {
+    border-radius: 0 10px 10px 0;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: transparent;
+    padding: 0 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.validation-summary {
+    margin-bottom: 12px;
+    color: #b00020;
+    font-weight: 600;
+}
+
+.validation-text {
+    font-size: 0.9rem;
+}
+
+.form-actions {
+    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    .auth-page {
+        padding: 30px 10px;
+    }
+
+    .auth-card {
+        padding: 20px;
+    }
+}
+
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    margin-left: 0;
+    margin-right: 10px;
+    accent-color: var(--light-blue);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+    .form-check-input:focus {
+        box-shadow: 0 0 0 3px rgba(58, 134, 255, 0.3);
+        outline: none;
+    }
+
+.form-check-label {
+    font-weight: 600;
+    color: var(--text-dark);
+    cursor: pointer;
+}
+
+.navbar-buttons a.btn {
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 6px 18px;
+    transition: all 0.3s ease;
+}
+
+.navbar-buttons a.btn-primary:hover {
+    background-color: var(--light-blue);
+    color: #fff;
+}
+
+.navbar-buttons a.btn-outline-primary:hover {
+    background-color: var(--light-blue);
+    color: #fff;
+    border-color: var(--light-blue);
+}
+
+.navbar-buttons a.btn {
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 6px 18px;
+    transition: all 0.3s ease;
+}
+
+.navbar-buttons a.btn-primary {
+    background-color: var(--primary-blue);
+    color: #fff;
+    border: none;
+}
+
+    .navbar-buttons a.btn-primary:hover {
+        background-color: var(--light-blue);
+        color: #fff;
+    }
+
+.navbar-buttons a.btn-outline-primary {
+    border-color: var(--primary-blue);
+    color: var(--primary-blue);
+}
+
+    .navbar-buttons a.btn-outline-primary:hover {
+        background-color: var(--light-blue);
+        color: #fff;
+        border-color: var(--light-blue);
+    }
+
+.dropdown-toggle {
+    font-weight: 600;
+    border-radius: 25px;
+    padding: 6px 18px;
+    color: var(--text-dark);
+}
+
+    .dropdown-toggle:hover {
+        background-color: var(--bg-light);
+    }

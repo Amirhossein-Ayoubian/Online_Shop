@@ -1,0 +1,23 @@
+﻿@using Online_Shop.Data.Repositories
+@inject IUserRepository _userRepository
+
+@if (_userRepository.GetCurrentUser() == null)
+{
+    <div class="navbar-buttons d-flex gap-2">
+        <a class="btn btn-outline-primary btn-sm" asp-controller="Login" asp-action="Index">ورود</a>
+        <a class="btn btn-primary btn-sm text-white" asp-controller="Register" asp-action="Index">ثبت‌نام</a>
+    </div>
+}
+else
+{
+    <div class="dropdown">
+        <a class="btn btn-light btn-sm dropdown-toggle" href="#" role="button" id="userMenu" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-user-circle me-1"></i> @_userRepository.GetCurrentUser().username
+        </a>
+        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userMenu">
+            <li><a class="dropdown-item" asp-controller="Account" asp-action="Profile">پروفایل</a></li>
+            <li><a class="dropdown-item" asp-controller="Account" asp-action="Logout">خروج</a></li>
+        </ul>
+    </div>
+}
+

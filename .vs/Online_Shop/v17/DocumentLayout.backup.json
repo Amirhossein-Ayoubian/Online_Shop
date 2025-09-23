@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\views\\shared\\_registerloginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\views\\shared\\_registerloginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\data\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\data\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -18,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Shop.css",
               "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\wwwroot\\css\\Shop.css",
               "RelativeDocumentMoniker": "Online_Shop\\wwwroot\\css\\Shop.css",
               "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\wwwroot\\css\\Shop.css",
               "RelativeToolTip": "Online_Shop\\wwwroot\\css\\Shop.css",
-              "ViewState": "AgIAABIBAAAAAAAAAAAYwBEBAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAJ0BAAAAAAAAAAAYwLcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-22T08:30:50.75Z",
               "IsPinned": true,
@@ -36,15 +44,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Website.cs",
               "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Data\\Website.cs",
               "RelativeDocumentMoniker": "Online_Shop\\Data\\Website.cs",
               "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Data\\Website.cs",
               "RelativeToolTip": "Online_Shop\\Data\\Website.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwEkAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T16:08:20.86Z",
+              "WhenOpened": "2025-09-23T19:23:09.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_RegisterLoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Shared\\_RegisterLoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Online_Shop\\Views\\Shared\\_RegisterLoginPartial.cshtml",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Shared\\_RegisterLoginPartial.cshtml",
+              "RelativeToolTip": "Online_Shop\\Views\\Shared\\_RegisterLoginPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T19:18:28.959Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Online_Shop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Online_Shop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAmwDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-23T18:32:04.37Z",
               "EditorCaption": ""
             }
           ]

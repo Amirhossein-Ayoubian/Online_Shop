@@ -1,0 +1,41 @@
+﻿@model LoginViewModel
+@{
+    ViewData["Title"] = "ورود به حساب کاربری";
+}
+
+<div class="auth-page">
+    <div class="auth-card">
+        <h2 class="auth-title">ورود به حساب کاربری</h2>
+
+        <form asp-action="Login" method="post" novalidate>
+            @Html.AntiForgeryToken()
+            <div asp-validation-summary="ModelOnly" class="validation-summary"></div>
+
+            <div class="form-group">
+                <label asp-for="username"></label>
+                <input asp-for="username" class="form-control form-control-lg" />
+                <span asp-validation-for="username" class="text-danger validation-text"></span>
+            </div>
+
+            <div class="form-group position-relative">
+                <label asp-for="password"></label>
+                <input asp-for="password" type="password" class="form-control form-control-lg password-input" />
+                <span asp-validation-for="password" class="text-danger validation-text"></span>
+            </div>
+
+            <div class="form-check mb-3">
+                <input asp-for="rememberMe" class="form-check-input" />
+                <label asp-for="rememberMe" class="form-check-label"></label>
+            </div>
+
+            <div class="form-actions">
+                <button type="submit" class="btn-buy" style="max-width: 260px;">ورود</button>
+            </div>
+
+            <div class="mt-3 text-center">
+                <small>حساب کاربری ندارید؟ <a asp-controller="Register" asp-action="Index">ثبت‌نام</a></small>
+            </div>
+        </form>
+    </div>
+</div>
+
