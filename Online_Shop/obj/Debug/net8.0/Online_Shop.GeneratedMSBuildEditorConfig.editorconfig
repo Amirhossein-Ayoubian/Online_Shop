@@ -1,11 +1,19 @@
 is_global = true
 build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
 build_property.PlatformNeutralAssembly = 
 build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Online_Shop
 build_property.RootNamespace = Online_Shop
@@ -26,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Components/CategoriesComponent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcG9uZW50c1xDYXRlZ29yaWVzQ29tcG9uZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Detail/CategoryDetail.cshtml]
@@ -58,6 +70,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/_GroupShowDropdownPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Hcm91cFNob3dEcm9wZG93blBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/_ShowCartItemPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaG93Q2FydEl0ZW1QYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/_ShowItemPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TaG93SXRlbVBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Amir/Courses/ASP.Net Core/Project/Online_Shop/Online_Shop/Views/Shared/_ValidationScriptsPartial.cshtml]

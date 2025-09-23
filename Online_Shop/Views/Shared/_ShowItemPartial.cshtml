@@ -1,0 +1,9 @@
+﻿@model Item
+
+<div class="product-card">
+    @* <img src="~/images/@(item.product.id).jpg" alt="@item.product.name" /> *@
+    <img src="~/images/1.jpg" alt="@Model.product.name" />
+    <h3 class="product-name">@Model.product.name</h3>
+    <p class="product-price">@String.Format("{0:N0} تومان", Model.price)</p>
+    <a asp-controller="Detail" asp-action="ItemDetail" asp-route-id="@Model.product.id" class="btn-buy">درباره محصول</a>
+</div>

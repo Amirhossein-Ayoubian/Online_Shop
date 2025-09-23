@@ -1,0 +1,17 @@
+﻿@model CartItem
+
+<div class="product-card">
+    @* <img src="~/images/@(Model.item.product.id).jpg" alt="@Model.item.product.name" /> *@
+    <img src="~/images/1.jpg" alt="@Model.item.product.name" />
+    <div class="product-name">@Model.item.product.name</div>
+    <div class="product-quantity">تعداد: <strong>@Model.count</strong></div>
+    <div class="product-price">قیمت کل: <strong>@Model.getTotalPrice().ToString("N0") تومان</strong></div>
+
+    <form method="post" asp-action="RemoveFromCart" asp-controller="Cart" style="margin-top: 12px;">
+        <input type="hidden" name="productId" value="@Model.item.product.id" />
+        <button type="submit" class="btn-buy" style="max-width: 120px; background-color: #e63946; box-shadow:none;">
+            حذف
+        </button>
+    </form>
+</div>
+

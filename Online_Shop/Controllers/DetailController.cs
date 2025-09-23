@@ -1,11 +1,24 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Online_Shop.Data;
+using Online_Shop.Data.Repositories;
 using Online_Shop.Models;
 
 namespace Online_Shop.Controllers
 {
     public class DetailController : Controller
     {
+        private readonly ILogger<DetailController> _logger;
+        private readonly IItemRepository _itemRepository;
+        private readonly ICategoryRepository _categoryRepository;
+
+        public DetailController(ILogger<DetailController> logger, IItemRepository itemRepository, 
+            ICategoryRepository categoryRepository)
+        {
+            _logger = logger;
+            _itemRepository = itemRepository;
+            _categoryRepository = categoryRepository;
+        }
+
         public IActionResult Index()
         {
             return View();
@@ -13,7 +26,7 @@ namespace Online_Shop.Controllers
 
         public IActionResult ItemDetail(int id)
         {
-            var item = Website.items.Find(p => p.product.id == id);
+            var item = _itemRepository.GetItemById(id);
             if (item == null)
             {
                 return NotFound();
@@ -24,20 +37,13 @@ namespace Online_Shop.Controllers
 
         public IActionResult CategoryDetail(int id)
         {
-            var category = Website.categories.Find(p => p.id == id);
+            var category = _categoryRepository.GetCategoryById(id);
             if (category == null)
             {
                 return NotFound();
             }
 
-            List<Item> items = new List<Item>();
-            foreach (var item in Website.items)
-            {
-                if (item.product.category.id == id)
-                {
-                    items.Add(item);
-                }
-            }
+            List<Item> items = (List<Item>)_itemRepository.GetItemsByCategory(id);
 
             CategoryItemViewModel viewModel = new CategoryItemViewModel()
             {

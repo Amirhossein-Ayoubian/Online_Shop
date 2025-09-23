@@ -1,27 +1,31 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Online_Shop.Data;
+using Online_Shop.Data.Repositories;
 using Online_Shop.Models;
 
 namespace Online_Shop.Controllers
 {
     public class CartController:Controller
     {
-        private readonly ILogger<HomeController> _logger;
+        private readonly ILogger<CartController> _logger;
+        private readonly IItemRepository _itemRepository;
 
-        public CartController(ILogger<HomeController> logger)
+        public CartController(ILogger<CartController> logger, IItemRepository itemRepository)
         {
             _logger = logger;
+            _itemRepository = itemRepository;
         }
 
         public IActionResult Index()
         {
+            ViewData["ShowCategories"] = false;
             return View();
         }
 
         [HttpPost]
         public IActionResult AddToCart(int productId)
         {
-            var item = Website.items.Find(p => p.product.id == productId);
+            var item = _itemRepository.GetItemById(productId);
             if (item == null)
             {
                 return NotFound();
@@ -46,7 +50,7 @@ namespace Online_Shop.Controllers
         [HttpPost]
         public IActionResult RemoveFromCart(int productId)
         {
-            var item = Website.items.Find(p => p.product.id == productId);
+            var item = _itemRepository.GetItemById(productId);
             if (item == null)
             {
                 return NotFound();
@@ -69,7 +73,14 @@ namespace Online_Shop.Controllers
                 return RedirectToAction("Index");
             }
 
-            return View(Website.cart);
+            CartViewModel viewModel = new CartViewModel()
+            {
+                cartItems = Website.cart.cartItems,
+                totalPrice = Website.cart.cartItems.Sum(c => c.getTotalPrice())
+            };
+
+            ViewData["ShowCategories"] = false;
+            return View(viewModel);
         }
 
         public IActionResult Checkout()
@@ -88,7 +99,7 @@ namespace Online_Shop.Controllers
                     i.count -= item.count;
                     if (i.count < 1)
                     {
-                        Website.items.Remove(i);
+                        _itemRepository.RemoveItem(i);
                     }
                 }
             }

@@ -1,4 +1,4 @@
-﻿@model Cart
+﻿@model CartViewModel
 @{
     ViewData["Title"] = "سبد خرید";
 }
@@ -10,20 +10,7 @@
     <div class="product-grid">
         @foreach (var item in Model.cartItems)
         {
-            <div class="product-card">
-                @* <img src="~/images/@(item.item.product.id).jpg" alt="@item.item.product.name" /> *@
-                <img src="~/images/1.jpg" alt="@item.item.product.name" />
-                <div class="product-name">@item.item.product.name</div>
-                <div class="product-quantity">تعداد: <strong>@item.count</strong></div>
-                <div class="product-price">قیمت کل: <strong>@item.getTotalPrice().ToString("N0") تومان</strong></div>
-
-                <form method="post" asp-action="RemoveFromCart" asp-controller="Cart" style="margin-top: 12px;">
-                    <input type="hidden" name="productId" value="@item.item.product.id" />
-                    <button type="submit" class="btn-buy" style="max-width: 120px; background-color: #e63946; box-shadow:none;">
-                        حذف
-                    </button>
-                </form>
-            </div>
+            <partial name="_ShowCartItemPartial" model="@item" />
         }
     </div>
 
@@ -33,6 +20,10 @@
                 نهایی کردن خرید
             </button>
         </form>
+
+        <div class="total-price">
+            قیمت کل: @Model.totalPrice تومان
+        </div>
     </div>
 
 </div>

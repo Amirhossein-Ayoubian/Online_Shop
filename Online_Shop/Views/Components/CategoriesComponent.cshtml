@@ -1,0 +1,17 @@
+﻿@model IEnumerable<Category>
+
+<div class="categories-sidebar">
+    <h5 class="sidebar-title">دسته بندی ها</h5>
+    <ul class="sidebar-list">
+        @foreach (var item in Model)
+        {
+            <li class="sidebar-item">
+                <a asp-controller="Detail" asp-action="CategoryDetail" asp-route-id="@item.id">
+                    <i class="fas fa-tags sidebar-icon"></i>
+                    <span>@item.name</span>
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+

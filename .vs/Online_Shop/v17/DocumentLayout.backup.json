@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\views\\detail\\categorydetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\views\\detail\\categorydetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\data\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|solutionrelative:online_shop\\data\\website.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B278F825-EFCB-4B97-93D5-616F90E95323}|Online_Shop\\Online_Shop.csproj|d:\\amir\\courses\\asp.net core\\project\\online_shop\\online_shop\\wwwroot\\css\\shop.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -22,17 +18,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Shop.css",
               "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\wwwroot\\css\\Shop.css",
               "RelativeDocumentMoniker": "Online_Shop\\wwwroot\\css\\Shop.css",
               "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\wwwroot\\css\\Shop.css",
               "RelativeToolTip": "Online_Shop\\wwwroot\\css\\Shop.css",
-              "ViewState": "AgIAAMYAAAAAAAAAAAAYwOAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABIBAAAAAAAAAAAYwBEBAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-09-22T08:30:50.75Z",
               "IsPinned": true,
@@ -40,28 +36,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryDetail.cshtml",
-              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Detail\\CategoryDetail.cshtml",
-              "RelativeDocumentMoniker": "Online_Shop\\Views\\Detail\\CategoryDetail.cshtml",
-              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Detail\\CategoryDetail.cshtml",
-              "RelativeToolTip": "Online_Shop\\Views\\Detail\\CategoryDetail.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T09:36:22.607Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "Online_Shop\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "Online_Shop\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-22T09:36:16.198Z",
+              "Title": "Website.cs",
+              "DocumentMoniker": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Data\\Website.cs",
+              "RelativeDocumentMoniker": "Online_Shop\\Data\\Website.cs",
+              "ToolTip": "D:\\Amir\\Courses\\ASP.Net Core\\Project\\Online_Shop\\Online_Shop\\Data\\Website.cs",
+              "RelativeToolTip": "Online_Shop\\Data\\Website.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAADwvyIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T16:08:20.86Z",
               "EditorCaption": ""
             }
           ]

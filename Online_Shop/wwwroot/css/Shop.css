@@ -223,3 +223,77 @@ footer.footer {
     font-weight: 700;
     color: var(--light-blue);
 }
+
+.total-price {
+    margin-top: 25px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    background: #ffffff;
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 4px 12px rgba(58, 134, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+    .total-price:hover {
+        transform: scale(1.03);
+        box-shadow: 0 6px 20px rgba(58, 134, 255, 0.3);
+        color: var(--light-blue);
+    }
+
+.categories-sidebar {
+    background-color: #ffffff;
+    border-radius: 12px;
+    padding: 20px 18px;
+    box-shadow: 0 6px 15px rgba(58, 134, 255, 0.15);
+    margin-bottom: 25px;
+}
+
+.sidebar-title {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom: 2px solid var(--light-blue);
+    padding-bottom: 8px;
+}
+
+.sidebar-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar-item {
+    margin-bottom: 10px;
+}
+
+    .sidebar-item a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px 14px;
+        border-radius: 8px;
+        font-weight: 600;
+        color: var(--text-dark);
+        text-decoration: none;
+        transition: all 0.3s ease;
+    }
+
+        .sidebar-item a:hover {
+            background-color: var(--bg-light);
+            color: var(--light-blue);
+            transform: translateX(-5px);
+        }
+
+.sidebar-icon {
+    font-size: 1rem;
+    color: var(--light-blue);
+}
+
+.sidebar-container {
+    margin-top: 80px;
+}
